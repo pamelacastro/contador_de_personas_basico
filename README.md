@@ -20,7 +20,7 @@ $ pip install opencv-python
 $ pip install ultralytics
 $ pip install numpy
 $ pip install shapely
-```
+
 ## FAQs
 ***
 Preguntas frecuencias
