@@ -31,7 +31,7 @@ num_per=0
 continua_contando=0
 id=[]
 condicion=True
-img_instrucciones = cv2.imread('descarga.jpg') # carga la imagen con las instrucciones para el usuario
+img_instrucciones = cv2.imread('instrucciones.jpg') # carga la imagen con las instrucciones para el usuario
 cv2.imshow('instrucciones',img_instrucciones)
 # Loop through the video frames
 while cap.isOpened():
