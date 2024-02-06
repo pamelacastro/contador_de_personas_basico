@@ -16,10 +16,13 @@ Tecla n: Para dibujar un nuevo polígono presiona la letra n.
 ***
 Instala las librerias necesarias para el programa 
 
-$ pip install opencv-python
-$ pip install ultralytics
-$ pip install numpy
-$ pip install shapely
+ pip install opencv-python
+
+pip install ultralytics
+
+pip install numpy
+
+pip install shapely
 
 ## FAQs
 ***
