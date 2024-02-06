@@ -2,50 +2,33 @@
 
 ## Table of Contents
 1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
-### General Info
+2. [Installation](#installation)
+4. [FAQs](#faqs)
+### Información Genral
 ***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
-## Technologies
+Este proyecto usa la libreria de YOLO para el conteo de personas en un area de un video. El usuario puede establecer el area donde quiere contar las personas estableciendo un poligono estableciendo su ubicacion usando el mouse. A contibuacion se describe las teclas y acciones necesarias para interactuar con el programa mientras se esta ejecutando. 
+Tecla q: cierra el programa
+Click izquierdo del mouse: Haz click sobre el video para establecer los puntos para formar el polígono (mínimo 3 puntos).
+Tecla p: Confirma con la tecla p para dibujar el polígono y empezar a contar las personas que pasan por el área
+Tecla n: Para dibujar un nuevo polígono presiona la letra n.
+
+## Instalación
 ***
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
-## Installation
-***
-A little intro about the installation. 
+Instala las librerias necesarias para el programa 
+
+$ pip install opencv-python
+$ pip install ultralytics
+$ pip install numpy
+$ pip install shapely
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
-## Collaboration
-***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
 ## FAQs
 ***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer of the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer of the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+Preguntas frecuencias
+1. **Donde puedo encontrar mayor información sobre la libreria de detección y seguimiento de personas?**
+https://docs.ultralytics.com/es/guides/region-counting/
+2. **Como se realizo la detección de personas en el area?** 
+Se utiliza la libreria shapely para detectar si un punto del tracking de un ID esta dentro del poligono creado por el usuario
+
+3. **Puedo analizar mi propio video?**
+Si solo asegurate de editar la linea de codigo número 21 video_path = "video.webm", con el nombre del archivo de video entre comillas. 
+
