@@ -21,7 +21,7 @@ $ pip install ultralytics
 $ pip install numpy
 $ pip install shapely
 ```
-### FAQs
+## FAQs
 ***
 Preguntas frecuencias
 1. **Donde puedo encontrar mayor información sobre la libreria de detección y seguimiento de personas?**
