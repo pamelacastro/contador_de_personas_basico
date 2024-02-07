@@ -7,10 +7,16 @@
 ## Información General
 ***
 Este proyecto usa la libreria de YOLO para el conteo de personas en un area de un video. El usuario puede establecer el area donde quiere contar las personas estableciendo un poligono estableciendo su ubicacion usando el mouse. A contibuacion se describe las teclas y acciones necesarias para interactuar con el programa mientras se esta ejecutando. 
+
 Tecla q: cierra el programa
+
 Click izquierdo del mouse: Haz click sobre el video para establecer los puntos para formar el polígono (mínimo 3 puntos).
+
 Tecla p: Confirma con la tecla p para dibujar el polígono y empezar a contar las personas que pasan por el área
-Tecla n: Para dibujar un nuevo polígono presiona la letra n.
+
+Tecla n: Para dibujar un nuevo polígono presiona la letra n
+
+En este repositorio encontraras el archivo proyecto1.py que implementa el seguimiento y conteo de personas.  
 
 ## Instalacion
 ***
